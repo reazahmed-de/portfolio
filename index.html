@@ -8,12 +8,12 @@
 <meta name="theme-color" content="#0a0a0f">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:wght@700;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html,body{height:100%;overflow:hidden;-webkit-tap-highlight-color:transparent}
 body{
-  font-family:'Outfit',sans-serif;
+  font-family: 'Nunito', sans-serif;
   height:100dvh;overflow:hidden;position:relative;
   -webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;
   transition:background 0.4s ease,color 0.4s ease;
@@ -59,9 +59,9 @@ body{
 body{background:var(--bg);color:var(--text-primary)}
 
 :root{
-  --serif:'DM Serif Display',Georgia,serif;
-  --sans:'Outfit',system-ui,sans-serif;
-  --brand:'Playfair Display',Georgia,serif;
+  --serif: 'Nunito', sans-serif;
+  --sans: 'Nunito', sans-serif;
+  --brand: 'Nunito', sans-serif;
   --transition-fast:180ms cubic-bezier(.4,0,.2,1);
   --transition-med:280ms cubic-bezier(.4,0,.2,1);
   --transition-slow:450ms cubic-bezier(.16,1,.3,1);
@@ -234,7 +234,7 @@ body{background:var(--bg);color:var(--text-primary)}
   padding:16px clamp(20px,2.5vw,28px);border-bottom:1px solid var(--border);
   display:flex;align-items:center;justify-content:space-between;flex-shrink:0;transition:border-color 0.4s;
 }
-.stage-title{font-family:var(--serif);font-size:20px;color:var(--text-primary);transition:color 0.4s}
+.stage-title{font-family:'Nunito',sans-serif;font-size:20px;font-weight: 700;color:var(--text-primary);transition:color 0.4s}
 .stage-badge{
   font-size:11px;color:var(--text-tertiary);padding:4px 10px;border-radius:6px;
   background:var(--surface);border:1px solid var(--border);
